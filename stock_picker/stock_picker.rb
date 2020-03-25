@@ -16,7 +16,4 @@ def stock_picker(prices)
   else
     return "No profit can be made."
   end
-    
 end
-
-puts stock_picker([1,25,5,5,45,5,6,20,1])
