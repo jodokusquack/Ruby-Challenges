@@ -1,4 +1,4 @@
-def ceasar_cipher(string, shift)
+def caesar_cipher(string, shift)
   letters = ("a".."z").to_a
   new_chars = string.chars.map do |char|
     converted = false
@@ -16,7 +16,3 @@ def ceasar_cipher(string, shift)
   end
   return new_chars.join
 end
-
-puts ceasar_cipher("What a string!", 5)
-puts ceasar_cipher("AbCdEfG", -1)
-
